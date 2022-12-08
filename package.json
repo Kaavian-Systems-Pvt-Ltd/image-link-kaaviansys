@@ -2,7 +2,7 @@
   "name": "imagecomponent",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -20,7 +20,7 @@
     "@storybook/manager-webpack4": "^6.5.13",
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.3.0", 
+    "babel-loader": "^8.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -28,5 +28,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-read-more-read-less": "^1.0.7"
+  }
 }
