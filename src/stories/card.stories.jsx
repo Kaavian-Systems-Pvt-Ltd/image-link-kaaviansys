@@ -1,17 +1,20 @@
-import ReactReadMoreReadLess from "react-read-more-read-less";
-import React , { useState } from 'react';
+import React from 'react';
 import { storiesOf } from '@storybook/react';
-import {Card} from '../components/index';
-import {CardData} from  './CardData';
-const stories = storiesOf('App Test', module);
+import { Card } from '../components/index.js';
+import { CardData } from './CardData';
+// import '../components/Requirements/card.css';
+
+// export default {
+//     title: ''
+// }
+const stories = storiesOf ('Gallery Modal' , module);
 
 
-stories.add('App', () => {
+stories.add ('Default Gallery' , ()=> {
     return (
-        <>
-            <div className="home-cards">
-                <Card details={CardData} />
-            </div>
-        </>
-    )
+        <div className='home-cards'>
+            <Card details={CardData} />
+        </div>
+
+    );
 });
