@@ -63,22 +63,6 @@ const CardData = [ {
         Renewable energy is energy that comes from resources which are continually replenished such as sunlight, wind, rain, tides, waves and geothermal heat. About 16% of global final energy consumption comes from renewable resources, with 10% of all energy from traditional biomass, mainly used for heating, and 3.4% from hydroelectricity. New renewables (small hydro, modern biomass, wind, solar, geothermal, and biofuels) accounted for another 3% and are growing very rapidly.
     </ReactReadMoreReadLess>
 
-} , {
-    'id' : 9 ,
-    'img' : 'https://ichef.bbci.co.uk/news/976/cpsprodpb/5978/production/_127540922_gettyimages-1368412925.jpg.webp' ,
-    'title' : 'CLOUD' ,
-    'description' : <ReactReadMoreReadLess readMoreClassName='readMoreClassName' readLessClassName='readLessClassName' charLimit={100} readMoreText='Read More' readLessText='Read Less'>
-        Renewable energy is energy that comes from resources which are continually replenished such as sunlight, wind, rain, tides, waves and geothermal heat. About 16% of global final energy consumption comes from renewable resources, with 10% of all energy from traditional biomass, mainly used for heating, and 3.4% from hydroelectricity. New renewables (small hydro, modern biomass, wind, solar, geothermal, and biofuels) accounted for another 3% and are growing very rapidly.
-    </ReactReadMoreReadLess>
-
-} , {
-    'id' : 10 ,
-    'img' : 'https://st.depositphotos.com/1000152/3647/i/600/depositphotos_36471097-stock-photo-sun.jpg' ,
-    'title' : 'SUN' ,
-    'description' : <ReactReadMoreReadLess readMoreClassName='readMoreClassName' readLessClassName='readLessClassName' charLimit={100} readMoreText='Read More' readLessText='Read Less'>
-        Renewable energy is energy that comes from resources which are continually replenished such as sunlight, wind, rain, tides, waves and geothermal heat. About 16% of global final energy consumption comes from renewable resources, with 10% of all energy from traditional biomass, mainly used for heating, and 3.4% from hydroelectricity. New renewables (small hydro, modern biomass, wind, solar, geothermal, and biofuels) accounted for another 3% and are growing very rapidly.
-    </ReactReadMoreReadLess>
-
-} ];
+}  ];
 
 export { CardData };
