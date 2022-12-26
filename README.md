@@ -1,8 +1,10 @@
 ## Gallery for kaavian_system
 
-It is Main Purpose of **Component Of Gallery Link User Interface** 
-It is Look Like for ***User Friendly***
-It is Created for Our Kaavian Theame Support
+It is Main Purpose of **Component Of Gallery Link User Interface** .
+
+It is Look Like for ***User Friendly*** .
+
+It is Created for Our Kaavian Theame Support .
 
 ### Installation Process 
 
