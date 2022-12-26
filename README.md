@@ -13,7 +13,7 @@ It is Look Like for ***User Friendly***
 
 > > npm i --save-dev @emotion/react @emotion/styled @mui/icons-material @mui/material
 
-## Documentation
+## Notes:
 
     * Image 
     * Title
