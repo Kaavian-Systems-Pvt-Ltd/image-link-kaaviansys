@@ -1,5 +1,5 @@
 {
-  "name": "@kaavian-sys/imagecomponent",
+  "name": "imagecomponent",
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.js",
@@ -24,7 +24,9 @@
     "@storybook/addon-interactions": "^6.5.13",
     "@storybook/addon-links": "^6.5.13",
     "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/builder-webpack5": "^6.5.15",
     "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/manager-webpack5": "^6.5.15",
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
@@ -36,6 +38,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.8",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "prop-types": "^15.8.1",
@@ -54,6 +57,7 @@
     "@storybook/addon-postcss": "^2.0.0",
     "eslint-config-kaaviansys": "github:Kaavian-Systems-Pvt-Ltd/eslint-config-kaaviansys",
     "react-read-more-read-less": "^1.0.7",
+    "react-scripts": "^5.0.1",
     "storybook": "^6.5.14"
   }
 }
