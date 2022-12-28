@@ -5,17 +5,16 @@ export const Card = (data)=> {
     const loadmore = ()=> {
         setnoOfElement (noOfElement + noOfElement);
     }; 
-    const Slice = data.details.slice (0 , noOfElement);
+    // const Slice = `${data.details?.slice (0 , noOfElement)}`;
+    const Slice = data.details?.slice (0, noOfElement);
     let refreshPage = function () {
         window.location.reload (false);
       };
     return( 
         <div>
-            <div className='Heading'>
-                <h1>Image Component</h1>
-            </div>
+        
             <div className='maindiv'>
-                {Slice.map ((value , index)=> (
+                {Slice?.map ((value , index)=> (
                 <div className='card' key={index}>
                     <div className='card-image'>
                         <img src={value.img} alt=''/>
