@@ -12,20 +12,27 @@ It is Created for Our Kaavian Theame Support .
 
 #### To Install
 
-> npm install --save-dev https://github.com/Kaavian-Systems-Pvt-Ltd/image-link-kaaviansys.git
+> npm install --save-dev https://github.com/Kaavian-Systems-Pvt-Ltd/image-link-kaaviansys.git 
+      
+      and
+
+> npm install imagecomponent --save-dev
 
 #### If have dependencies problem install this:
 
 > > npm i --save-dev @emotion/react @emotion/styled @mui/icons-material @mui/material
 
-## Notes:
+## Notes: It Include the Card inside {...below notes are followed..}
 
-    * Image 
-    * Title
-    * Description
-    * Readmore
+    * Id          : 'number'
+    * Image       : 'url'
+    * Title       : 'Image Title'
+    * Description :  <<ReactReadMoreReadLess> 'Image Description' </ReactReadMoreReadLess>
+    
+    > npm i react-read-more-read-less --save-dev
 
-###### Demo
+###### Demo Link:
 
 > Click Here : http://localhost:6006/?path=/story/gallery-modal--default-gallery
 
+###  Thank You :)
