@@ -40,7 +40,7 @@ It is Created for Our Kaavian Theame Support .
                              Renewable energy is energy that comes from resources which are continually rep. New renewables (small hydro, modern biomass,
                              wind,solar,geothermal, and biofuels) accounted for another 3% and are growing very rapidly.
                            </ReactReadMoreReadLess>
-        }]
+        },...etc]
 ###### Demo Link:
 
 > Click Here : http://localhost:6006/?path=/story/gallery-modal--default-gallery
