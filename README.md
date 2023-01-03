@@ -36,7 +36,7 @@ It is Created for Our Kaavian Theame Support .
             'id' : 1 ,
             'img' : 'https://t3.ftcdn.net/jpg/03/18/11/14/240_F_318111476_ijsCRAGJGBP5ilNwMDKpMtIBcoHzrHEP.jpg' ,
             'title' : 'RENEWABLE ENERGY' ,
-            'description' : <ReactReadMoreReadLess readMoreClassName='readMoreClassName' readLessClassName='readLessClassName' charLimit={100} readMoreText='Read                                    More'readLessText='Read Less'>
+            'description' : <ReactReadMoreReadLess readMoreClassName='readMoreClassName' readLessClassName='readLessClassName' charLimit={100} readMoreText='ReadMore'readLessText='Read Less'>
                              Renewable energy is energy that comes from resources which are continually rep. New renewables (small hydro, modern biomass,
                              wind,solar,geothermal, and biofuels) accounted for another 3% and are growing very rapidly.
                            </ReactReadMoreReadLess>
