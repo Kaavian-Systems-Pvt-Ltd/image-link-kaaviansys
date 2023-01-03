@@ -9,7 +9,7 @@ export const CardData = [ {
     </ReactReadMoreReadLess>
 } , {
     'id' : 2 ,
-    'img' : 'https://t3.ftcdn.net/jpg/03/18/11/14/240_F_318111476_ijsCRAGJGBP5ilNwMDKpMtIBcoHzrHEP.jpg' ,
+    'img' : 'https://i.pinimg.com/564x/a7/b6/dd/a7b6dd2344f296ecbb10421c4856f0e2.jpg' ,
     'title' : 'ARTIFICIAL INTELLIGENCE' ,
     'description' : <ReactReadMoreReadLess readMoreClassName='readMoreClassName' readLessClassName='readLessClassName' charLimit={100} readMoreText='Read More' readLessText='Read Less'>
         Renewable energy is energy that comes from resources which are continually replenished such as sunlight, wind, rain, tides, waves and geothermal heat. About 16% of global final energy consumption comes from renewable resources, with 10% of all energy from traditional biomass, mainly used for heating, and 3.4% from hydroelectricity. New renewables (small hydro, modern biomass, wind, solar, geothermal, and biofuels) accounted for another 3% and are growing very rapidly.

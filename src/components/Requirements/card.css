@@ -1,59 +1,70 @@
-/*...default css...*/
-/* *{
-  margin: 0px;
-  padding: 0px;
-} */
 /*...heading css...*/
-.Heading h1{
-   text-align: center;
-   font-family: Fira-Sans;
+.Heading h1 {
+  text-align: center;
+  font-family: Fira-Sans;
 }
+
 /*...card css...*/
-.card{
+.card {
   width: 30%;
-  /* position:static; */
+  height: fit-content;
   border-radius: 0.2rem;
-  margin: 1.1rem -1.2rem 0rem 2rem;
+  margin: 0% -0.0rem 2.5rem 2rem;
   box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.20);
   display: inline-block;
+}
+
+/*...card hover...*/
+.card:hover {
+  z-index: 1;
+  transform: scale(1.08);
+  /* border-color: #0E8692; */
+  /* box-shadow: 0rem 0.5rem 0rem; */
+  cursor: pointer;
 
 }
-/*...card hover...*/
-.card:hover{
-  transform: scale(1.05);
-  border-color: #0E8692;
-  box-shadow: 0rem 0.5rem 0rem;
-}
+
 /*...image css...*/
-.card-image img{
+.card .card-image .imagecn {
   width: 100%;
+  height: 300px;
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
 }
+
+
+
 /*...title css...*/
-.card-title{
+.card-title {
   font-weight: bold;
   font-family: Fira-Sans;
   padding: 5px;
 }
+
 /*...description css...*/
-.card-desc{
+.card-desc {
   font-family: Fira-Sans;
   padding: 4px;
+  height: max-content;
 }
+
 /*...readmore and less css...*/
-.readMoreClassName, .readLessClassName{
+.readMoreClassName,
+.readLessClassName {
   margin-left: 70%;
   color: #007bff;
 }
+
 /*...readmore hover css...*/
 .readMoreClassName:hover {
   color: initial;
 }
+
 /*...readless hover css...*/
 .readLessClassName:hover {
   color: initial;
 }
+
 /*...learnmore btn css...*/
 .morebtn {
   background: #0E8692;
@@ -62,8 +73,6 @@
   font-size: 1rem;
   font-weight: bold;
   border: 0;
-  margin-top: 45%;
-  margin-right: 2rem;
   width: 10rem;
   padding: 0.6rem;
   text-align: center;
@@ -71,57 +80,49 @@
   text-decoration: none;
   border-radius: 0.4rem;
   cursor: pointer;
-  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.1);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
-} 
-.morebtn:hover,
-.morebtn:focus,
-.morebtn:active {
+}
+
+.morebtn:hover {
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-} 
+}
 
 /*...Cancel btn css...*/
- .cancelbtn {
+.cancelbtn {
   background: #fff;
   color: #0E8692;
   font-family: Fira-Sans;
   font-size: 1rem;
   font-weight: bold;
   border-color: #007bff;
-  margin-right: 2rem;
-  margin-top: 45%;
-  margin-left: 15%;
   padding: 0.6rem;
+  margin-right: 1rem;
   width: 10rem;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 0.5rem;
-
   cursor: pointer;
   box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.1);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
-} 
+}
 
-.cancelbtn:hover,
-.cancelbtn:focus,
-.cancelbtn:active {
+.cancelbtn:hover{
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  /* border-color: #007bff; */
+}
 
-} 
-/*...More News Btn CSS...*/
+/*...loadMore News Btn CSS...*/
 .cardbutton {
-  margin-right: 30%;
-  margin-left: 25%;
-} 
+  margin-left: 40%;
+  margin-top: 5%;
+}

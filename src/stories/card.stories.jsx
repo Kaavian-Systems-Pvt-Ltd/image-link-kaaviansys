@@ -16,3 +16,11 @@ stories.add ('Default Gallery' , ()=> {
 
     );
 });
+
+stories.add('Medium Gallery',()=>{
+    return(
+        <div className='medium'>
+            <Card details={CardData}/>
+        </div>
+    )
+})

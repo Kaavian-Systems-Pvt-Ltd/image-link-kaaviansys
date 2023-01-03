@@ -12,12 +12,14 @@ export const Card = (data)=> {
       };
     return( 
         <div>
-        
+        <div className='Heading'>
+                <h1> Image Component</h1>
+        </div>
             <div className='maindiv'>
                 {Slice?.map ((value , index)=> (
                 <div className='card' key={index}>
                     <div className='card-image'>
-                        <img src={value.img} alt=''/>
+                        <img className='imagecn' src={value.img} alt=''/>
                     </div>
                     <div>
                         <p className='card-title'>{value.title}</p>
