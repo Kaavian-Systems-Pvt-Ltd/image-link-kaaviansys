@@ -6,13 +6,12 @@ import { CardData } from './CardData';
 const stories = storiesOf ('Gallery Modal' , module);
 
 
-stories.add ('Default Gallery' , ()=> {
-    // const [ CardData , setCardData ] =useState();
+stories.add ('Gallery' , ()=> {
 
     return (
         <div className='home-cards'>
             <Card details={CardData} />
-        </div>
+        </div>  
 
     );
 });
