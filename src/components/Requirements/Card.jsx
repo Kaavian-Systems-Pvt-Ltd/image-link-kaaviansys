@@ -12,9 +12,6 @@ export const Card = (data) => {
     return (
         <body>
             <div>
-                <div className='Heading'>
-                    <h1> Image Component</h1>
-                </div>
                 <div><br/><br/><br/>
                     <div className='maindiv'><br/>
                         {Slice?.map((value, index) => (

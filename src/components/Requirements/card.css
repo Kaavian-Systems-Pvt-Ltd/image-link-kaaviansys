@@ -1,8 +1,4 @@
-/*...heading css...*/
-.Heading h1 {
-  text-align: center;
-  font-family: Fira-Sans;
-}
+
 /*..main div css..*/
 .maindiv{
   display:grid;
