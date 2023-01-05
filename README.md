@@ -24,7 +24,7 @@ It is Created for Our Kaavian Theame Support .
 
 ## Notes: 
 
-   > It Include the Card inside {...below notes are followed.. user can used it file write}
+    It Include the Card inside {...below notes are followed.. user can used it file write}
     * Id          : 'number'
     * Image       : 'url' (No size Restriction)
     * Title       : 'Image Title'
